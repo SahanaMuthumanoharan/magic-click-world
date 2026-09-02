@@ -21,7 +21,7 @@ export const Route = createFileRoute("/inventory")({
       },
     ],
   }),
-  component: Inventory;
+  component: Inventory,
 });
 
 const tabs = ["All", "Low Stock", "Expiring Soon"] as const;
