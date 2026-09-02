@@ -1,20 +1,13 @@
 # Predictive inventory Dashboard
 
-build an website like the above mentioned image in working condition and also all the options in the website must be in working condition and should switch pages with each option .
+Government pharmacies and clinics often run out of essential, lifesaving medicines at the wrong time — while at the same time, other medicines pile up on shelves and expire unused because nobody predicted how much would actually be needed. This happens because stock decisions are based on guesswork or fixed schedules, not on real demand patterns, seasonal disease trends, or the local population's needs. 
 
-This project was built with [Lovable](https://lovable.dev).
+smart inventory dashboard that uses time-series forecasting to predict how much of each medicine a clinic will need in the coming weeks/months. It looks at:
 
-## Build with Lovable
+Historical consumption data (how much of a drug was used in the past)
+Seasonal/outbreak trends (e.g., more antibiotics/ORS during monsoon, flu season spikes)
+Local demographics (elderly population needing more diabetes/BP medicine, etc.)
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/80c817a9-cad8-43a0-bbc9-b358935f1347).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ```sh
 git clone <this-repository-url>
